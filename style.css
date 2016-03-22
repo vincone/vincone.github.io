@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0;
+    height: 100%;
+    background-color: #478d66;
+}
+
+.content {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #69d2a8;
+    padding: 30px;
+}
+
+.send-form {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.send-form input {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+}
+
+.send-form button {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+}
+
+.phones {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: #337860;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.contact span {
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+    text-align: center;
+}
